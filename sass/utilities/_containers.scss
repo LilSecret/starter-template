@@ -6,16 +6,14 @@
 
   width: min(100% - var(--padding), var(--max-width));
   margin-inline: auto;
-}
 
-.content-max-width[data-type="narrow"] {
-  --max-width: #{$content-mw-narrow};
-}
-
-.content-max-width[data-type="wide"] {
-  --max-width: #{$content-mw-wide};
-}
-
-.content-max-width[data-type="full-bleed"] {
-  --max-width: 100%;
+  &[data-type="narrow"] {
+    --max-width: #{$content-mw-narrow};
+  }
+  &[data-type="wide"] {
+    --max-width: #{$content-mw-wide};
+  }
+  &[data-type="full-bleed"] {
+    --max-width: 100%;
+  }
 }
