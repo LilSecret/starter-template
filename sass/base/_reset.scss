@@ -122,3 +122,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+img,
+picture,
+svg {
+  display: block;
+  width: 100%;
+}
